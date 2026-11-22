@@ -1,0 +1,8 @@
+{
+  "FIST":      { "command": "GRIPPER_CLOSE", "joint": "gripper",  "target": 10 },
+  "OPEN_PALM": { "command": "GRIPPER_OPEN",  "joint": "gripper",  "target": 90 },
+  "POINT":     { "command": "BASE_LEFT",     "joint": "base",     "step": -5 },
+  "PEACE":     { "command": "BASE_RIGHT",    "joint": "base",     "step": 5 },
+  "THUMBS_UP": { "command": "ARM_UP",        "joint": "shoulder", "step": 5 },
+  "THREE":     { "command": "ARM_DOWN",      "joint": "shoulder", "step": -5 }
+}
